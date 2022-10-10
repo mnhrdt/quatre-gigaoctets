@@ -12,4 +12,5 @@ mkdir stable-diffusion/models/ldm/stable-diffusion-v1
 ln -sr ./sd-v1-1.ckpt stable-diffusion/models/ldm/stable-diffusion-v1/model.c
 kpt
 
-
+# download the taming transformers part of the code
+git clone https://github.com/CompVis/taming-transformers.git
