@@ -17,3 +17,10 @@ kpt
 
 # download the taming transformers part of the code
 git clone https://github.com/CompVis/taming-transformers.git
+
+
+# different execution options
+cd stable-diffusion
+
+CUDA_VISIBLE_DEVICES="" python scripts/txt2img.py --prompt "A fantasy landscape, trending on artstation" --outdir ./results --ckpt ./weights/sd-v1-1.ckpt --plms --skip_grid --n_samples 1
+PYTHONPATH=.:../taming-transformers/ python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms
