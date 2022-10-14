@@ -1,0 +1,30 @@
+CODE PACKAGING
+
+C1. Find where weights are downloaded upon first run
+C2. Write minimal and complete requirements.txt
+C3. Cleanup paths/etc so that main.py can be run from an arbitrary dir
+C4. Clarify all changes wrt original codebase (maybe rebase them?)
+C5. Add cmdline to png comment, for a self-explanatory output
+C6. Package this code for ease of use outside of IPOL (?)
+C7. Round-trip: write a "check_sd_png" that verifies the png comment by
+re-running the command line and checking that the exact same image is obtained
+
+
+DEMO
+
+D1. Decide which parameters to expose
+D2. Hide/disallow incompatible parameters
+D3. Clarify parameter meanings in the interface
+D4. For the number of iterations, expose an approximation of its effect in
+terms of total running time.
+D5. Do not display broken input image when it does not exist
+D6. Simplify run line, remove debug stuff
+
+
+ARTICLE
+
+A1. Elaborate a script that runs all the experiments to be shown in the paper
+A2. Run this script on limule to obtain all the png files
+A3. Experimental section: decide on a series of meaningful experiments to show
+A4. Introduction: write blah blah blah, find comprehensive references
+A5. Dependencies: explain all "ingredients" and why are they needed
