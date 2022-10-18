@@ -19,6 +19,7 @@ D4. For the number of iterations, expose an approximation of its effect in
 terms of total running time.
 D5. Do not display broken input image when it does not exist
 D6. Simplify run line, remove debug stuff
+D7. Detect script failures from the web interface (not "execution successful!")
 
 
 ARTICLE
